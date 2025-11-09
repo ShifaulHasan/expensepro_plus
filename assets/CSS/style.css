@@ -1,10 +1,4 @@
-/* ==========================================
-   ExpensePro+ Light Professional Theme
-   Author: ChatGPT
-   Version: 2.0 (Pure CSS, no JS required)
-========================================== */
 
-/* 🌍 Reset & Global Setup */
 * {
   margin: 0;
   padding: 0;
@@ -19,9 +13,7 @@ body {
   min-height: 100vh;
 }
 
-/* ==========================
-   🌟 Layout Structure
-========================== */
+
 
 header {
   background: linear-gradient(90deg, #007bff, #00aaff);
@@ -44,9 +36,7 @@ header {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
 }
 
-/* ==========================
-   🔘 Buttons
-========================== */
+
 
 button, .btn {
   background: #007bff;
@@ -72,9 +62,7 @@ button:hover, .btn:hover {
   background: #5a6268;
 }
 
-/* ==========================
-   📋 Forms
-========================== */
+
 
 form {
   display: flex;
@@ -97,10 +85,6 @@ input:focus, select:focus, textarea:focus {
   box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
   outline: none;
 }
-
-/* ==========================
-   🧾 Tables
-========================== */
 
 table {
   width: 100%;
@@ -130,9 +114,6 @@ tr:hover {
   transition: 0.3s;
 }
 
-/* ==========================
-   📊 Dashboard Grid
-========================== */
 
 .dashboard {
   display: grid;
@@ -165,9 +146,7 @@ tr:hover {
   color: #555;
 }
 
-/* ==========================
-   💬 Alert / Message Box
-========================== */
+
 
 .alert {
   padding: 14px 18px;
@@ -188,9 +167,6 @@ tr:hover {
   border: 1px solid #f5c6cb;
 }
 
-/* ==========================
-   📅 Filter & Search Bar
-========================== */
 
 .filter-section {
   display: flex;
@@ -205,9 +181,7 @@ tr:hover {
   min-width: 200px;
 }
 
-/* ==========================
-   ⚙️ Navigation Bar (Optional)
-========================== */
+
 
 .navbar {
   background-color: #ffffff;
@@ -230,9 +204,7 @@ tr:hover {
   color: #0056b3;
 }
 
-/* ==========================
-   📱 Responsive
-========================== */
+
 
 @media (max-width: 768px) {
   header {
